@@ -94,9 +94,6 @@ pip install -r requirements.txt
 
 ## Основные скрипты
 
-* [main.py](#mainpy)
-* [vehicles.csv](#vehiclescsv)
-
 ### main.py
 
 #### Что делает скрипт?
