@@ -109,7 +109,7 @@ def col_mers_very_expensive(df):
     df_third = df_third.drop_duplicates().reset_index(drop=True)
     df_third = df_third.sort_values(by="price", ascending=False)
     df_top_100 = df_third.head(100)
-    car_count = df_top_100["manufacturer"].value_counts().get('audi', 0)
+    car_count = df_top_100["manufacturer"].value_counts().get("audi", 0)
     print(car_count)
 
 
@@ -117,7 +117,7 @@ def main():
     df = pd.read_csv("vehicles.csv")
     # sum_omissions = searching_missing_values(df)
     # descriptive_statistics = get_descriptive_statistics(df)
-    # # calculating_cars_engines(df)
+    # calculating_cars_engines(df)
     # build_scatter_plot(df)
     find_out_what_cheaper(df)
     get_cars_high_mileage(df)
